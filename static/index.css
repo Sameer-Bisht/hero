@@ -1,0 +1,44 @@
+@media only screen and (min-width: 535px) {
+    #footer{
+        position: absolute !important;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+    }
+    
+}
+#homeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    width: 1000px;
+    margin-top: 20px;
+    padding: 12px 251px 90px 145px;
+}
+#home h1{
+    text-align: center;
+    
+}
+#home p{
+    font-size: 4rem;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    padding: 21px 60px;
+    margin: 51px 0;
+    width: 400px;
+    display: block;
+    font-size: 2rem;
+    border-radius: 14px;
+    border: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    filter: drop-shadow(3px 5px 1px black);
+    color: black;
+    cursor:pointer;
+    font-weight: bold;
+    background-color: orange;
+    
+}
